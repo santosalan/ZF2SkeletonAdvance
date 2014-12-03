@@ -32,6 +32,7 @@ class Module
             'Zend\Loader\StandardAutoloader' => array(
                 'namespaces' => array(
                     __NAMESPACE__ => __DIR__ . '/src/' . __NAMESPACE__,
+                	'Usuario' => __DIR__ . '/src/' . 'Usuario',
                 ),
             ),
         );
